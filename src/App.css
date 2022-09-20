@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+}
+.leftColumn {
+  width: 300px;
+}
+.main {
+}
+.imgWrap {
+  width: 700px;
+  height: 500px;
+  border: 1px solid #000;
+  position: relative;
+}
+.imgWrap .imageWrapper,
+.imgWrap .imageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.imgWrap .marshmallowImage {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.imgWrap button {
+  width: 80px;
+  height: 30px;
+}
+
+.buttonControl {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.swiper {
+  width: 600px;
+  height: 100px;
+}
+
+.swiper-slide img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
